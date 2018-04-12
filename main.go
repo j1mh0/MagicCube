@@ -10,7 +10,7 @@ import (
 
 //SayHello is default response function
 func SayHello(w http.ResponseWriter, req *http.Request) {
-	w.Write([]byte("Hello"))
+	w.Write([]byte("Hello,I am ASUS router!"))
 }
 
 func main() {
